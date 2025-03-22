@@ -1,0 +1,67 @@
+EXPLAINABILITY COMPARISON: DECISION TREE VS. EXPERT SYSTEM
+======================================================================
+
+1. APPROACH COMPARISON
+----------------------------------------------------------------------
+Decision Tree Model:
+  - Machine learning approach that automatically derives rules from data
+  - Rules are organized in a hierarchical tree structure
+  - Rules are derived based on information gain/entropy
+  - Top features: thal_2, oldpeak, age, thalach, chol
+
+Expert System:
+  - Knowledge-based approach with human-defined rules
+  - Rules are organized by risk levels (High, Medium, Low)
+  - Rules incorporate domain expertise and medical knowledge
+  - Transparent rule-based decision making
+
+2. INTERPRETABILITY
+----------------------------------------------------------------------
+Decision Tree Interpretability:
+  - Visual representation shows the decision path for any prediction
+  - The path from root to leaf shows exactly which features and thresholds were used
+  - The depth of the tree affects interpretability (deeper trees are harder to interpret)
+  - Current tree depth: 10
+
+Expert System Interpretability:
+  - Rules are explicitly defined in natural language
+  - Rules have clear medical interpretations
+  - Each rule corresponds to specific medical knowledge about heart disease risk factors
+
+3. PERFORMANCE COMPARISON
+----------------------------------------------------------------------
+Decision Tree Accuracy: 0.9902
+Expert System Accuracy: 0.4732
+
+4. STRENGTHS AND WEAKNESSES
+----------------------------------------------------------------------
+Decision Tree Strengths:
+  - Automatically discovers patterns in data
+  - Can find non-obvious relationships
+  - Performs well when trained on sufficient data
+
+Decision Tree Weaknesses:
+  - May overfit to training data
+  - Decision boundaries are axis-parallel (limited expressiveness)
+  - Deep trees can be difficult to interpret
+
+Expert System Strengths:
+  - Incorporates domain knowledge directly
+  - Rules have clear medical rationale
+  - Can work with limited data
+
+Expert System Weaknesses:
+  - Rules are manually defined and may miss data-driven patterns
+  - Requires domain expertise to create and update
+  - May not adapt well to new or unusual cases
+
+5. CONCLUSION
+----------------------------------------------------------------------
+The decision tree and expert system approaches offer complementary strengths in heart disease risk prediction:
+
+The decision tree model shows better predictive performance, suggesting it has captured patterns in the data that the expert system rules may not have considered.
+
+A hybrid approach could potentially combine the strengths of both methods:
+  - Use the decision tree to identify important features and thresholds
+  - Refine expert system rules based on these insights
+  - Incorporate rule importance from expert knowledge into tree construction

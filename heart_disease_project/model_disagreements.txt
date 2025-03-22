@@ -1,0 +1,293 @@
+Found 108 disagreements between models
+==================================================
+
+Disagreement #1
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.5833333333333334
+  - trestbps: 0.1509433962264151
+  - chol: 0.1712328767123287
+  - thalach: 0.4198473282442747
+  - oldpeak: 0.2419354838709677
+  - sex_1: True
+  - cp_1: False
+  - cp_2: False
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: True
+  - slope_2: False
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: True
+  - thal_2: False
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #2
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.2291666666666666
+  - trestbps: 0.4339622641509434
+  - chol: 0.1666666666666666
+  - thalach: 0.816793893129771
+  - oldpeak: 0.2258064516129032
+  - sex_1: True
+  - cp_1: False
+  - cp_2: False
+  - cp_3: True
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: False
+  - slope_2: True
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: False
+  - thal_3: True
+
+--------------------------------------------------
+
+Disagreement #3
+Decision Tree predicted: 0
+Expert System predicted: 2
+Feature values:
+  - age: 0.5624999999999999
+  - trestbps: 0.339622641509434
+  - chol: 0.2968036529680365
+  - thalach: 0.5419847328244275
+  - oldpeak: 0.0967741935483871
+  - sex_1: True
+  - cp_1: False
+  - cp_2: True
+  - cp_3: False
+  - fbs_1: True
+  - restecg_1.0: False
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: True
+  - slope_2: False
+  - ca_1: True
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: True
+  - thal_2: False
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #4
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.4374999999999999
+  - trestbps: 0.2452830188679245
+  - chol: 0.2694063926940639
+  - thalach: 0.6946564885496184
+  - oldpeak: 0.1774193548387097
+  - sex_1: False
+  - cp_1: True
+  - cp_2: False
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: False
+  - slope_1: False
+  - slope_2: True
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: True
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #5
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.5833333333333334
+  - trestbps: 0.1509433962264151
+  - chol: 0.1712328767123287
+  - thalach: 0.4198473282442747
+  - oldpeak: 0.2419354838709677
+  - sex_1: True
+  - cp_1: False
+  - cp_2: False
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: True
+  - slope_2: False
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: True
+  - thal_2: False
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #6
+Decision Tree predicted: 0
+Expert System predicted: 2
+Feature values:
+  - age: 0.7499999999999999
+  - trestbps: 0.4150943396226415
+  - chol: 0.3561643835616437
+  - thalach: 0.7862595419847328
+  - oldpeak: 0.2258064516129032
+  - sex_1: True
+  - cp_1: False
+  - cp_2: False
+  - cp_3: True
+  - fbs_1: True
+  - restecg_1.0: False
+  - restecg_2.0: False
+  - exang_1: False
+  - slope_1: True
+  - slope_2: False
+  - ca_1: True
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: True
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #7
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.7291666666666666
+  - trestbps: 0.4339622641509434
+  - chol: 0.4269406392694063
+  - thalach: 0.4732824427480916
+  - oldpeak: 0.032258064516129
+  - sex_1: False
+  - cp_1: False
+  - cp_2: True
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: False
+  - slope_1: False
+  - slope_2: True
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: False
+  - thal_3: True
+
+--------------------------------------------------
+
+Disagreement #8
+Decision Tree predicted: 0
+Expert System predicted: 2
+Feature values:
+  - age: 0.5624999999999999
+  - trestbps: 0.339622641509434
+  - chol: 0.2968036529680365
+  - thalach: 0.5419847328244275
+  - oldpeak: 0.0967741935483871
+  - sex_1: True
+  - cp_1: False
+  - cp_2: True
+  - cp_3: False
+  - fbs_1: True
+  - restecg_1.0: False
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: True
+  - slope_2: False
+  - ca_1: True
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: True
+  - thal_2: False
+  - thal_3: False
+
+--------------------------------------------------
+
+Disagreement #9
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.7916666666666666
+  - trestbps: 0.1981132075471697
+  - chol: 0.9999999999999998
+  - thalach: 0.6793893129770993
+  - oldpeak: 0.2580645161290322
+  - sex_1: False
+  - cp_1: False
+  - cp_2: True
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: False
+  - restecg_2.0: False
+  - exang_1: False
+  - slope_1: True
+  - slope_2: False
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: False
+  - thal_3: True
+
+--------------------------------------------------
+
+Disagreement #10
+Decision Tree predicted: 1
+Expert System predicted: 0
+Feature values:
+  - age: 0.3125
+  - trestbps: 0.339622641509434
+  - chol: 0.2442922374429223
+  - thalach: 0.8244274809160305
+  - oldpeak: 0.064516129032258
+  - sex_1: True
+  - cp_1: False
+  - cp_2: True
+  - cp_3: False
+  - fbs_1: False
+  - restecg_1.0: True
+  - restecg_2.0: False
+  - exang_1: True
+  - slope_1: False
+  - slope_2: True
+  - ca_1: False
+  - ca_2: False
+  - ca_3: False
+  - ca_4: False
+  - thal_1: False
+  - thal_2: True
+  - thal_3: False
+
+--------------------------------------------------
+
