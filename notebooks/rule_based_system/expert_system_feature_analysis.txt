@@ -1,0 +1,36 @@
+EXPERT SYSTEM FEATURE PATTERNS ANALYSIS
+============================================================
+
+Low Risk Level Analysis:
+----------------------------------------
+Number of patients: 199 (97.07% of total)
+Average age: 0.0 years
+Average cholesterol: 0.0 mg/dL
+Average blood pressure: 0.0 mmHg
+Patients who smoke: 31.7%
+Patients with diabetes: 10.6%
+Patients with family history: 21.1%
+
+Likely expert system rules that applied:
+- Low risk if cholesterol < 200
+- Low risk if blood pressure < 120
+
+Medium Risk Level Analysis:
+----------------------------------------
+No patients classified as this risk level
+
+High Risk Level Analysis:
+----------------------------------------
+Number of patients: 6 (2.93% of total)
+Average age: 0.0 years
+Average cholesterol: 0.0 mg/dL
+Average blood pressure: 0.0 mmHg
+Patients who smoke: 50.0%
+Patients with diabetes: 100.0%
+Patients with family history: 100.0%
+
+Likely expert system rules that applied:
+- High risk if diabetes is 'Yes' and family history is 'Yes'
+- Low risk if cholesterol < 200
+- Low risk if blood pressure < 120
+
